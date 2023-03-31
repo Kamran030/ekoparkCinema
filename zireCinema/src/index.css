@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+body {
+  font-family: "Quicksand", sans-serif !important;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media only screen and (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1500px !important;
+  }
+}
+.swiper-pagination-bullet {
+  background-color: #fff !important;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fff !important;
+}
+/*! ---------------------------------------------------------------------- Start Header Navigation  */
+.homeHeaderContainer {
+  height: 100%;
+  background: /* top, transparent red, faked with gradient */ linear-gradient(
+      to right top,
+      #051937de,
+      #004d7af0,
+      #008793db,
+      #12c5bad1
+    ),
+    /* bottom, image */ url(./images/bg.jpg);
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.navHeaderContainer {
+  height: 293px;
+  background: /* top, transparent red, faked with gradient */ linear-gradient(
+      to right top,
+      #051937de,
+      #004d7af0,
+      #008793db,
+      #12c5bad1
+    ),
+    /* bottom, image */ url(./images/bg.jpg);
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.lang {
+  background: transparent;
+  border: none;
+  color: white;
+  width: 45px;
+}
+.lang > option {
+  background-color: #008793db;
+}
+.navlinks > a {
+  color: #ffffff;
+  font-size: 18px;
+  outline: none !important;
+}
+/*! ----------------------------------------------------------------------End Header Navigation  */
+
+/*! ----------------------------------------------------------------------Start Footer  */
+
+.footerContainer {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212025;
+  font-size: 20px;
+  color: #6a6a6a;
+  text-align: center;
+}
+.footerContainer a {
+  color: #6a6a6a;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.footerContainer span {
+  font-weight: 600;
+}
+.footer-end {
+  background-color: #181818;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer-end > p {
+  color: #6a6a6a;
+  font-size: 18px;
+  text-align: center;
+}
+/*! ---------------------------------------------------------------------- Start Swiper Carousel  */
+.swiper {
+  height: 100%;
+}
+
+.carouselComponent {
+  min-height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.carouselComponentLeftSide {
+  width: 58%;
+  min-height: 400px;
+  padding: 0 20px 0 0;
+}
+.carouselComponentLeftSide > iframe {
+  width: 100%;
+  min-height: 100%;
+  border-radius: 20px;
+}
+.carouselComponentRightSide {
+  width: 42%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #28282d;
+  padding: 30px 30px 10px 30px;
+  color: #fff;
+}
+.carouselComponentMovieDetails {
+  display: flex;
+  flex-wrap: wrap;
+}
+.carouselComponentMovieDetails div {
+  display: inline-block;
+  padding: 0px 60px 0px 0px;
+}
+/*! ----------------------------------------------------------------------End Swiper Carousel  */
+
+/*! ----------------------------------------------------------------------Start AboutUs page  */
+
+.aboutUsContainer {
+  background-color: #181818;
+  padding: 30px 0 60px 0;
+}
+
+.aboutHeader {
+  width: 65%;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  padding: 3rem 0;
+}
+.aboutHeader > h1 {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  font-size: 24px;
+}
+.aboutHeader > p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.aboutCarousel {
+  width: 870px;
+}
+.aboutCarousel img {
+  height: 500px;
+}
+
+.aboutMain {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.aboutMainLeft {
+  width: 60%;
+  height: 80%;
+  padding: 0 20px 0 0;
+}
+.aboutMainLeft img {
+  width: 100%;
+  border-radius: 20px;
+  height: 100%;
+}
+.aboutMainRight {
+  width: 40%;
+  padding: 0 0 0 20px;
+}
+.aboutMainRight > img {
+  width: 100%;
+}
+/*! ----------------------------------------------------------------------End AboutUs page  */
+
+.homeLastSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 0;
+}
+.homeLastSectionLeft {
+  width: 50%;
+  height: 80%;
+  padding: 0 20px 0 0;
+}
+.homeLastSectionLeft img {
+  width: 100%;
+  border-radius: 20px;
+  height: 100%;
+}
+.homeLastSectionRight {
+  width: 50%;
+  padding: 0 0 0 20px;
+  margin-top: 1.5rem;
+}
+.homeLastSectionRight > h4 {
+  color: #6f6f6f;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.homeLastSectionRight > p {
+  font-size: 18px;
+  color: white;
+  line-height: 47px;
+  font-weight: 100;
+}
+.homeLastCarousel {
+  width: 720px;
+}
+.homeLastCarousel img {
+  height: 500px;
+  width: 100%;
+}
+.homeLastSectionBtn {
+  padding: 13px 50px;
+  border-radius: 31px;
+  color: #988cff;
+  background-color: #28282d;
+  border-color: #28282d;
+  box-shadow: 0px 20px 40px -15px rgba(0, 0, 0, 0.52);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+.homeLastSectionBtn:hover {
+  background-color: #988cff;
+  color: white;
+}
